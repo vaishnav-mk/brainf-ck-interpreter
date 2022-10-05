@@ -1,6 +1,7 @@
 # brainfuck-interpreter
 🤯 A brainfuck interpreter I created to practice rust
 * [Brainfuck is an esoteric programming language created in 1993 by Urban Müller. Notable for its extreme minimalism, the language consists of only eight simple commands, a data pointer and an instruction pointer.](https://en.wikipedia.org/wiki/Brainfuck)
+* [Basics of Brainfuck](https://gist.github.com/roachhd/dce54bec8ba55fb17d3a)
 
 # Brainfuck characters
 ```
@@ -14,8 +15,9 @@
 
 ```
 
-# Hello World example!
+# [Hello World example!](https://stackoverflow.com/questions/16836860/how-does-the-brainfuck-hello-world-actually-work)
 `++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.`
+
 ![image](https://user-images.githubusercontent.com/84540554/194183461-1633ad37-d040-4fe4-9e00-108b0ee75bf6.png)
 
 ```
@@ -41,3 +43,8 @@
 > + .                   print '!'
 > .                     print '\n'
 ```
+# ASCII Table example!
+
+`+[+.]`
+
+![image](https://user-images.githubusercontent.com/84540554/194184048-6350ee45-278f-4d07-bbde-5dd0c0eb4101.png)
