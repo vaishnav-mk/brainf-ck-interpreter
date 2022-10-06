@@ -1,9 +1,10 @@
-# brainfuck-interpreter
-🤯 A brainfuck interpreter I created to practice rust
-* [Brainfuck is an esoteric programming language created in 1993 by Urban Müller. Notable for its extreme minimalism, the language consists of only eight simple commands, a data pointer and an instruction pointer.](https://en.wikipedia.org/wiki/Brainfuck)
-* [Basics of Brainfuck](https://gist.github.com/roachhd/dce54bec8ba55fb17d3a)
+# brainf*ck-interpreter
+🤯 A brainf*ck interpreter I created to practice rust
+* [Brainf*ck is an esoteric programming language created in 1993 by Urban Müller. Notable for its extreme minimalism, the language consists of only eight simple commands, a data pointer and an instruction pointer.](https://en.wikipedia.org/wiki/Brainfuck)
+* [Basics of Brainf*ck](https://gist.github.com/roachhd/dce54bec8ba55fb17d3a)
+* [Fireship's explanation of Brainf*ck in 100 seconds](https://www.youtube.com/watch?v=hdHjjBS4cs8)
 
-# Brainfuck characters
+# Brainf*ck characters
 ```
     > move pointer to right by 1
     < move pointer to left by 1
