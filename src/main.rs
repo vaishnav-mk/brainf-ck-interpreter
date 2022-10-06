@@ -1,11 +1,11 @@
 use std::{collections::HashMap, io::stdin, io::Write, io::stdout};
 fn main() {
-    unfuck(&read_line());
+    unfricc(&read_line());
 }
 
 fn read_line() -> String {
     let mut line = String::new();
-    print!("Enter the brainfuck line that you would like to unfuck: ");
+    print!("Enter the brainf*ck line that you would like to unf*ck: ");
     stdout().flush().unwrap();
 
     stdin().read_line(&mut line).expect("Error getting line");
@@ -14,19 +14,19 @@ fn read_line() -> String {
     return line;
 }
 
-fn unfuck(line: &str) {
+fn unfricc(line: &str) {
 
     /*
-    * This is the brainfuck interpreter
-    * It is a hashmap of text in brainfuck
+    * This is the brainf*ck interpreter
+    * It is a hashmap of text in brainf*ck
     * current_cell_pointer is the current memory cell's pointer
     * loop_brackets is a hashmap of the [] brackets
     * cells is a vector of all cell values
-    * current_text_index is the current position in the brainfuck text
+    * current_text_index is the current position in the brainf*ck text
     */
 
-    println!("Unfucking '{line}' with '{}' characters", line.len());
-    print!("Unfucked text: ");
+    println!("Unf*cking '{line}' with '{}' characters", line.len());
+    print!("Unf*cked text: ");
     
     let loop_brackets:HashMap<usize, usize> = handle_loop_bracket(line);
 
