@@ -1,6 +1,6 @@
 use std::{collections::HashMap, io::stdin, io::Write, io::stdout};
 fn main() {
-    unfricc(&read_line());
+    unf_ck(&read_line());
 }
 
 fn read_line() -> String {
@@ -14,7 +14,7 @@ fn read_line() -> String {
     return line;
 }
 
-fn unfricc(line: &str) {
+fn unf_ck(line: &str) {
 
     /*
     * This is the brainf*ck interpreter
